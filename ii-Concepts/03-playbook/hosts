@@ -4,7 +4,7 @@
 server1
 
 [windetails]
-winsrv1 ansible_connection=winrm ansible_user=administrator ansible_password=dineshSRV@123 ansible_port=5985 ansible_winrm_server_cert_validation=ignore ansible_winrm_transport=ntlm
+winsrv1 ansible_connection=winrm ansible_user=rootadmin ansible_password=P@ssw0rd@123 ansible_port=5985 ansible_winrm_server_cert_validation=ignore ansible_winrm_transport=ntlm
 
 [withport]
 winsrv1:5985
