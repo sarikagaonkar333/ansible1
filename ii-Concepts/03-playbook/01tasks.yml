@@ -3,7 +3,8 @@
 # Above - sign indicates a list item. 
  
   # Target: where our play will run and options it will run with
-  hosts: simplegroup
+  hosts: 
+    simplegroup
   #gather_facts: false
 
   # Variable: variables that will apply to the play, on all target systems
